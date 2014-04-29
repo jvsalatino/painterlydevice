@@ -1,0 +1,28 @@
+Abrir GUI de processing
+Abrir sketch: sobel1.pde
+Correr el sketch
+Aparece una ventanacon fondo celeste
+Hacer clic con el boton izquierdo
+Aparecen unos puntitos blancos y negros delineando la imagen
+Apretar letra G
+Aparece la imagen con pinceladas
+
+Cambio de parametros
+====================
+ Cambio de imagen: linea 5 (se recomienda no usar un archivo muy grande)
+ Tamaño de la grilla:  variable: grid (linea 12)
+ Tamaño pincel 1er pasada: variable stroke1 (linea 13)
+ Tamaño pincel 2da pasada: variable stroke2 (linea 14)
+ 
+ 
+ Salidas
+ =======
+ Se genera un archivo de texto llamado: salida.txt
+ que contiene la informacion de las pinceladas
+ 
+ coordenada x
+ coordenada y
+ normal del gradiente en grados sexagesimales
+ valor hue
+ valor saturation
+ valor brightness
